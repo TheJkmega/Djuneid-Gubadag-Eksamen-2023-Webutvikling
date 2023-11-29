@@ -1,0 +1,334 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+header img {
+    height: 100px;
+    width: auto;
+}
+
+header nav ul {
+    display: flex;
+    align-content: center;
+}
+
+header nav ul li {
+    padding: 13px;
+}
+
+#hct {
+    background-color: #e6bd43;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#headline {
+    background-color: lightgrey;
+    padding: 30px;
+    text-align: center;
+}
+
+#headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headline p {
+    width: 800px;
+    text-align: center;
+}
+
+#headline a {
+    text-decoration: none;
+    color: black;
+    background-color: #e6bd43;
+    padding: 8px;
+}
+
+#subheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#about {
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+}
+
+#about img {
+    height: 400px;
+    padding: 50px;
+}
+
+#about article {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#about article p {
+    max-width: 70%;
+}
+
+#about a {
+    text-decoration: none;
+    max-width: fit-content;
+    color: black;
+    padding: 15px;
+    background-color: white;
+    border: solid #252525 4px;
+}
+
+#subheading p {
+    max-width: 50%;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#services h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#services article {
+    max-width: 250px;
+}
+
+#services article {
+    padding: 30px;
+}
+
+#newsletter {
+    text-align: center;
+    padding: 30px;
+    background-color: lightgrey;
+}
+
+#newsletter input {
+    height: 40px;
+    border: none;
+}
+
+#newsletter button {
+    border: none;
+    height: 42px;
+    background-color: #e6bd43;
+}
+
+#prodheader {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(ressurser/thing.png);
+    text-align: center;
+    font-size: 18px;
+    padding: 80px;
+}
+
+hr {
+    border-top: solid #e6bd43 4px;
+    max-width: 90%;
+}
+
+#prodmain h2 {
+    padding-left: 70px;
+}
+
+#prodmain img {
+    height: 350px;
+    width: 350px;
+}
+
+#previous {
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#previous a {
+    background-color: white;
+    border: solid black 1px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+#branding {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: start;
+    padding-top: 40px;
+}
+
+#design {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: start;
+    padding-top: 40px;
+}
+
+#development {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: start;
+    padding-top: 40px;
+}
+
+#development img {
+    height: 550px;
+    width: 550px;
+}
+
+#aboutheading {
+    display: flex;
+    justify-content: end;
+    background-image: url(ressurser/thing2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+#aboutheading article {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 400px;
+    padding: 40px;
+}
+
+#aboutheading a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    background-color: #e6bd43;
+}
+
+#aboutmain h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#ourservices {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+#ourservices article {
+    max-width: 200px;
+    padding-top: 50px;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    background-color: #e6bd43;
+    flex-wrap: wrap;
+}
+
+#clients h2 {
+    width: 100%;
+}
+
+#clients img {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(224, 222, 222);
+    padding: 40px;
+}
+
+#contact h2 {
+    width: 100%;
+}
+
+#contact article {
+    width: 400px;
+}
+
+#contact input {
+    border: none;
+    width: 400px;
+    padding: 10px;
+}
+
+#message {
+    height: 125px;
+}
+
+#contact button {
+    border: none;
+    background-color: #e6bd43;
+    padding: 13px;
+    margin-top: 10px;
+}
+
+#contact ul li {
+    padding-top: 10px;
+}
+
+section h6 {
+    display: none;
+}
+
+footer {
+    background-color: #252525;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul li {
+    color: white;
+}
+
+footer ul img {
+    height: 100px;
+    width: auto;
+}
+
+footer ul li ul li {
+    padding-right: 15px;
+}
+
+footer ul li ul li a {
+    color: white;
+    text-decoration: none;
+}
